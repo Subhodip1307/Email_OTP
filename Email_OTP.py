@@ -8,7 +8,7 @@ id="key" # provide the key if you dont know how to get it then check the Readme.
 #let's generate otp
 otp_number=secrets.token_hex(3)
 message=EmailMessage()
-message["Subject"]="give the subject"
+message["Subject"]="give the subject" # provide here the required Subject
 otp_message=f"your login  otp is--{otp_number} " \
             f"kindly don't share it with anyone....."
 print("provide the reciver email")
